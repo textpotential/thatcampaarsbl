@@ -1,2 +1,2 @@
 # thatcampaarsbl
-Site for THATCamp AAR/SBL
+The advent of digital technology and social media has not only transformed how religious communities function today, they have also changed how scholars teach about and conduct research on religion more broadly. If you are interested in how technology is changing—or can change—the work of religious studies scholars, then we invite you to attend the THATCamp SBL & AAR unconference!
