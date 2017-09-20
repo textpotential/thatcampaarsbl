@@ -23,3 +23,29 @@
   width: 20%;
 
 }
+
+@media screen and (max-width: 480px) {
+
+#main_content {
+  
+  display: inline-block;
+  width: 100%;
+
+}
+
+#left_side {
+  
+  float: none;
+  width: 100%;
+
+}
+
+#right_side {
+  
+  float: none;
+  width: 100%;
+
+}
+
+
+}
