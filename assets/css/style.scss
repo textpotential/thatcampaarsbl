@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#main_content {
+  
+  display: inline-block;
+  width: 60%;
+
+}
+
+#left_side {
+  
+  float: left;
+  width: 20%;
+
+}
+
+#right_side {
+  
+  float: right;
+  width: 20%;
+
+}
