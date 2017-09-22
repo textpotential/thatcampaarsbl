@@ -24,6 +24,12 @@
 
 }
 
+@media screen and (max-width: 992px) {
+  img {
+    max-width: 90%;
+  }
+}
+
 @media screen and (max-width: 480px) {
 
 #main_content {
@@ -47,9 +53,5 @@
 
 }
 
-
-}
-
-@media screen and (max-width: 320px) {
 
 }
