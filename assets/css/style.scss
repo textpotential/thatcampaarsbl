@@ -7,6 +7,8 @@
   
   display: inline-block;
   width: 75%;
+  max-width: none;
+  min-width: 540px;
 
 }
 
@@ -15,10 +17,11 @@
   float: left;
   width: 25%;
   min-width: 180px;
+  padding-top: 40px;
 
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 780px) {
   img {
     max-width: 90%;
   }
