@@ -11,6 +11,12 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
 
+          <div style="text-align: center;">
+            <h2>{{ page.title }}</h2>
+            <h4>{{ page.author }}</h4>
+              {{ page.date | date_to_string }}<br />
+          </div>
+
           {{ content }}
 
       </section>

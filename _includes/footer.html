@@ -1,0 +1,30 @@
+      {% if site.disqus %}
+        {% include disqus.html %}
+      {% endif %}
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <img src="{{base}}/assets/images/THATCamp-logo-white-black-outlines.png" alt="THATCamp" height="36">&nbsp;&nbsp;<img src="{{base}}/assets/images/SBL-logo.png" alt="SBL" height="36">&nbsp;&nbsp;<img src="{{base}}/assets/images/AAR-Logo.png" alt="AAR" height="36">
+
+        <p>The “THATCamp” name and logo are trademarked by the Corporation for Digital Scholarship used under license. The SBL logo is trademarked by the Society for Biblical Literature and used with permission. The AAR logo is trademarked by the American Academy of Religion and used with permission. </p>
+        <p>All original THATCamp text, images, audio, and video are used under license via <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a></p>
+
+        <!-- {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+         -->
+         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    {% if site.google_analytics %}
+      <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Making a Trailer to Advertise Your Classes
 date: 2017-12-06 00:00:00
 categories: ['2017']
