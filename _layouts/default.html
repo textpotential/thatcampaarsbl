@@ -14,10 +14,11 @@
           {{ content }}
 
       </section>
-
+    <div id="left_side">
       {% if page.twitter %}
-        {% include twitter.html %}
+        {{ page.twitter }}
       {% endif %}
+    </div>
 
     </div>
 
