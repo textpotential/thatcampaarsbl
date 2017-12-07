@@ -10,6 +10,7 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+        <div style="margin:0px auto">
 
           <div style="text-align: center;">
             <h2>{{ page.title }}</h2>
@@ -19,15 +20,9 @@
 
           {{ content }}
 
+        </div>
+
       </section>
-
-      <div id="left_side">
-      {% if page.twitter %}
-        {{ page.twitter }}
-      {% endif %}
-      </div>
-
-    </div>
 
     {% include footer.html %}
 
